@@ -2,28 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Fatima's Homepage</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<style>
-  body{
-    font-family:Arial;
-    background: color #f4f4f4;
-    padding: 10px;
-  }
-  h1{
-    color: blue;
-    margin: auto
-  }
-  img{
-    width:100px;
-    border: radius 15px;;
-  }
-</style>
 <body>
-  <h1>Your Name</h1>
-  <p>This is the course of web development.This is a web page.</p>
-  <img src="working analysis.PNG" alt="Profile image"><br>  
-  <a href="http://www.facebook.com">Visit facebook</a>
+
+  <header>
+    <h1>My Web</h1>
+    <p>Welcome to my homepage</p>
+  </header>
+
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>   
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="left">
+      <h2>Login</h2>
+      <form>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <div class="right">
+      <h2>About This Site</h2>
+      <p>This website is created by me to practice and learn HTML and CSS. 
+         It includes a login form, navigation bar, layout, and more.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 My Web. All rights reserved.
+  </footer>
+
 </body>
 </html>
